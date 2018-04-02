@@ -1,0 +1,19 @@
+{
+  "name": "applicationServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+  },
+  "author": "ugurasaner",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "redis": "^2.8.0",
+    "request": "^2.85.0"
+  }
+}
