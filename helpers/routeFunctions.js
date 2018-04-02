@@ -86,7 +86,6 @@ function sendResponse(request, response){
 }
 
 function getCachedResult(params, cb){
-	console.log(params);
 	let prefix = params.latitude + ':' + params.longitude + ':' + params.radius;
 	redisHelper.get(prefix, cb);
 }
